@@ -7,7 +7,7 @@ const App = () => {
   const [val,setval] = useState(0);
 
   function counter(){
-    return setval(val++);
+    return setval(val+1);
   }
 
   return (
